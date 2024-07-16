@@ -128,3 +128,48 @@ queue.enqueue(1);
 queue.enqueue(2);
 console.log(queue.dequeue()); // Output: 1
 console.log(queue.front()); // Output: 2
+
+const numbers = [1, 2, 3, 4, 5, 6];
+let i = 0;
+ 
+while (i < numbers.length) {
+  console.log(numbers[i]);
+  i++;
+}
+
+[Wednesday 01:34] Paul Bowers
+const numbers = [1, 2, 3, 4, 5, 6];
+
+let i = 0;
+ 
+while (i < numbers.length) {
+
+  console.log(numbers[i]);
+
+  i++;
+
+}
+
+ 
+[Wednesday 01:35] Paul Bowers
+let count = 0;
+ 
+while (true) {
+
+  console.log(count);
+
+  count++;
+ 
+  // Break the loop when count reaches 6
+
+  if (count > 5) {
+
+    break;
+
+  }
+
+}
+ 
+console.log("Loop has ended.");
+
+ 
